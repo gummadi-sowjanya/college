@@ -1,0 +1,108 @@
+html{
+    background-color: aliceblue;
+}
+
+header{
+    text-align: center;
+    background: blueviolet;
+    text-decoration-color: black;
+    height: 120px;
+    padding: 2px;
+    width: 100%;
+}
+nav{
+    background-color: burlywood;
+    text-decoration-color: blue;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    width: 95%;
+}
+nav ul{
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+nav ul li{
+    display:inline-block;
+    padding:15px;
+}
+
+
+
+.con{
+    width:80%;
+    margin:auto;
+}
+
+
+
+#home{
+    border: 3px solid black;
+    padding: 5px;
+    margin: 10px;
+    float: right;
+    width: 100%;
+}
+#about{
+    background-color: lightgreen;
+    border: 3px solid black;
+    margin: 0;
+    padding: 5px;
+    width: 47%;
+    float: left;
+    display: grid;
+    
+}
+
+#courses{
+    background-color: lightskyblue;
+    border: 3px solid black;
+    margin: 0;
+    padding: 5px;
+    width: 47%;
+    float: right;
+    display: grid;
+}
+
+#placements{
+    border: 3px solid black;
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+    float: right;
+    height: 50%;
+}
+
+
+#contact{
+    border: 3px solid black;
+    padding: 5px;
+    margin: 10px;
+    float: right;
+    height: 200px;
+    width: 100%;
+}
+table{
+    text-align: right;
+    background-color:honeydew;
+    padding: 3px;
+}
+th,td{
+    border: 3px solid grey;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+}
+footer{
+    background-color: yellowgreen;
+    text-align: center;
+    width: 100%;
+    clear: both;
+}
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
